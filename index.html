@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Wonders - Discover the Beauty of Pakistan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-content">
+            <div class="nav-brand">
+                <div class="nav-logo">🇵🇰</div>
+                <span class="nav-title">Pakistan Wonders</span>
+            </div>
+            <div class="nav-links">
+                <a href="#wonders" class="nav-link">Wonders</a>
+                <a href="#creator" class="nav-link">Creator</a>
+                <button class="btn btn-primary btn-sm">Explore</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Discover the <span class="gradient-text">Wonders</span><br>of Pakistan
+                </h1>
+                <p class="hero-description">
+                    Journey through ancient civilizations, breathtaking landscapes, and
+                    cultural treasures that define the soul of South Asia.
+                </p>
+            </div>
+
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg">Start Exploring</button>
+                <button class="btn btn-outline btn-lg">Learn More</button>
+            </div>
+
+            <div class="scroll-indicator">
+                <svg class="chevron-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Major Regions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Years of History</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">UNESCO Sites</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wonders Section -->
+    <section id="wonders" class="wonders-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Iconic Wonders</h2>
+                <p class="section-description">
+                    Explore the most remarkable destinations that showcase Pakistan's
+                    rich heritage and natural beauty.
+                </p>
+            </div>
+
+            <!-- Featured Wonder -->
+            <div class="featured-wonder">
+                <div id="featured-image" class="featured-wonder-image"></div>
+                <div class="featured-wonder-content">
+                    <div>
+                        <div class="region-badge">
+                            <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span id="featured-region">Gilgit-Baltistan</span>
+                        </div>
+                        <h3 id="featured-name" class="featured-wonder-title">Hunza Valley</h3>
+                        <p id="featured-description" class="featured-wonder-description">
+                            A breathtaking valley nestled in the Karakoram Mountains, known for its stunning landscapes, ancient forts, and the longevity of its inhabitants.
+                        </p>
+                    </div>
+
+                    <div class="highlights-section">
+                        <h4 class="highlights-label">HIGHLIGHTS</h4>
+                        <div id="featured-highlights" class="highlights-list"></div>
+                    </div>
+
+                    <button class="btn btn-primary btn-lg">
+                        Explore <span id="featured-button-name">Hunza Valley</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Wonder Cards Grid -->
+            <div class="wonders-grid" id="wonders-grid"></div>
+        </div>
+    </section>
+
+    <!-- Creator Section -->
+    <section id="creator" class="creator-section">
+        <div class="container">
+            <div class="creator-grid">
+                <div class="creator-image-wrapper">
+                    <div class="creator-image-glow"></div>
+                    <img src="../client/public/profile.jpg" alt="Creator" class="creator-image" onerror="this.src='https://placehold.co/600x800/1F2937/E1E7EF?text=Profile'">
+                </div>
+                <div class="creator-content">
+                    <div>
+                        <h2 class="creator-heading">Created by</h2>
+                        <div class="creator-info">
+                            <p class="creator-name">Muhammad Abdullah Fawad</p>
+                            <p class="creator-id">Registration ID: 232052</p>
+                            <p class="creator-university">Air University, Islamabad</p>
+                        </div>
+                        <p class="creator-description">
+                            This website is a passion project dedicated to showcasing the
+                            incredible wonders of Pakistan. Through modern web design and
+                            compelling storytelling, we aim to inspire people around the
+                            world to discover and appreciate the rich cultural heritage,
+                            historical significance, and breathtaking natural beauty of
+                            Pakistan.
+                        </p>
+                    </div>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="feature-title">Modern Design</h3>
+                                <p class="feature-description">
+                                    Built with advanced HTML and CSS techniques for a
+                                    responsive, beautiful experience.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="feature-title">Community Focused</h3>
+                                <p class="feature-description">
+                                    Dedicated to promoting Pakistan's cultural and natural
+                                    heritage globally.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="feature-title">Authentic Content</h3>
+                                <p class="feature-description">
+                                    Carefully researched information about Pakistan's most
+                                    iconic destinations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-lg">Connect with Creator</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <div>
+                <h2 class="cta-title">Ready to Explore?</h2>
+                <p class="cta-description">
+                    Start your journey through Pakistan's most remarkable destinations
+                    and experience the magic of South Asia.
+                </p>
+            </div>
+            <button class="btn btn-primary btn-lg">Begin Your Adventure</button>
+        </div>
+    </section>
+
+    <!-- Air University Section -->
+    <section class="university-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Air University, Islamabad</h2>
+                <p class="section-description">
+                    A premier institution of higher learning in Pakistan, dedicated to
+                    academic excellence and innovation.
+                </p>
+            </div>
+
+            <div class="university-image-wrapper">
+                <div class="university-image-glow"></div>
+                <img src="../client/public/air-university.jpg" alt="Air University Islamabad" class="university-image" onerror="this.src='https://placehold.co/1200x600/1F2937/E1E7EF?text=Air+University'">
+            </div>
+
+            <div class="university-values">
+                <div class="value-item">
+                    <h3 class="value-title">Excellence</h3>
+                    <p class="value-description">
+                        Committed to providing world-class education
+                    </p>
+                </div>
+                <div class="value-item">
+                    <h3 class="value-title">Innovation</h3>
+                    <p class="value-description">
+                        Fostering research and technological advancement
+                    </p>
+                </div>
+                <div class="value-item">
+                    <h3 class="value-title">Leadership</h3>
+                    <p class="value-description">
+                        Developing future leaders of Pakistan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                        <div class="footer-logo">🇵🇰</div>
+                        <span class="footer-brand-name">Pakistan Wonders</span>
+                    </div>
+                    <p class="footer-brand-description">
+                        Discovering the beauty and heritage of Pakistan.
+                    </p>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-heading">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="#wonders">Wonders</a></li>
+                        <li><a href="#creator">About Creator</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-heading">Learn</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Travel Guide</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Pakistan Wonders. Created with passion to showcase the beauty of Pakistan.</p>
+                <p>Designed & Developed by the Creator • All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
